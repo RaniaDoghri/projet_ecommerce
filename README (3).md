@@ -1,10 +1,10 @@
-# Projet Ventes — Nettoyage & Analyse
+# Projet ecommerce — Nettoyage & Analyse
 
 Pipeline de nettoyage de données de ventes avec `pandas`, suivi d'une analyse du chiffre d'affaires.
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 projet-ventes/
@@ -20,13 +20,13 @@ projet-ventes/
 
 ---
 
-## 🎯 Objectif
+##  Objectif
 
 Partir d'un jeu de données de ventes contenant des incohérences réalistes (valeurs manquantes, formats mixtes, doublons, outliers), le nettoyer, puis calculer et analyser le chiffre d'affaires.
 
 ---
 
-## 📊 Description des données
+##  Description des données
 
 Le fichier `ventes.csv` contient 100 transactions avec les colonnes suivantes :
 
@@ -47,7 +47,7 @@ Le fichier `ventes.csv` contient 100 transactions avec les colonnes suivantes :
 
 ---
 
-## 🧹 Règles de nettoyage appliquées
+##  Règles de nettoyage appliquées
 
 | Colonne    | Traitement |
 |------------|-----------|
@@ -62,7 +62,7 @@ Le fichier `ventes.csv` contient 100 transactions avec les colonnes suivantes :
 
 ---
 
-## 🚀 Démarrage rapide
+##  Démarrage rapide
 
 ### Prérequis
 
@@ -87,7 +87,7 @@ df.head()
 
 ---
 
-## 🔄 Workflow
+##  Workflow
 
 1. **Cellule 1** du notebook `nettoyage_ventes.ipynb` génère `ventes.csv` (dataset sale)
 2. **Cellules 2 à 10** nettoient les données et exportent `ventes_clean.csv`
@@ -95,16 +95,16 @@ df.head()
 
 ---
 
-## 👥 Équipe & répartition
+##  Équipe & répartition
 
 | Membre       | Responsabilité                              |
 |--------------|---------------------------------------------|
-| **Samer**    | Génération du dataset & pipeline de nettoyage |
+| **Rania Doghri**    | Génération du dataset & pipeline de nettoyage |
 | **[Coéquipier]** | Calcul du chiffre d'affaires & analyse      |
 
 ---
 
-## 🌿 Conventions Git
+##  Conventions Git
 
 - Travailler sur des branches dédiées : `feature/nettoyage`, `feature/analyse-ca`
 - Messages de commit en français, format court : `ajout`, `fix`, `refacto`, `docs`
@@ -112,7 +112,7 @@ df.head()
 
 ---
 
-## 📝 Notes techniques
+##  Notes techniques
 
 - Encodage des fichiers CSV : **UTF-8**
 - Séparateur : **virgule** (`,`)
@@ -120,6 +120,6 @@ df.head()
 
 ---
 
-## 📄 Licence
+##  Licence
 
-Projet pédagogique — usage interne.
+Projet PFA
